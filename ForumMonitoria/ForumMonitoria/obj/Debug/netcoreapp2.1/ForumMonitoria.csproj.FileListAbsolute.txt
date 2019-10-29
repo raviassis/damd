@@ -38,3 +38,17 @@ C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Are
 C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Disciplinas\Create.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Disciplinas\Delete.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Disciplinas\Details.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Disciplinas\Edit.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Disciplinas\Index.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\PaginaDisciplina\Index.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Topicos\Create.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Topicos\Delete.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Topicos\Details.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Topicos\Edit.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\Topicos\Index.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\PaginaTopico\Index.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\PaginaDisciplina\CreateTopico.g.cshtml.cs
+C:\projects\damd\ForumMonitoria\ForumMonitoria\obj\Debug\netcoreapp2.1\Razor\Views\PaginaTopico\CreateMensagem.g.cshtml.cs

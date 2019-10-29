@@ -1,0 +1,29 @@
+﻿@model  Topico
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Tópico: @Model.Nome</h2>
+
+<p>
+    @Model.Descricao
+</p>
+
+<p>
+    <a asp-action="CreateMensagem">Nova Mensagem</a>
+</p>
+
+<div class="container">
+    @foreach (var item in Model.Mensagens)
+    {
+        <div class="row">
+            <div class="col-md-2">
+                @item.ApplicationUser?.UserName
+            </div>
+            <div class="col-md-10">
+                @item.Texto
+            </div>
+        </div> 
+    }
+</div>
+

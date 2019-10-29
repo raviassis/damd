@@ -1,0 +1,23 @@
+﻿@model Disciplina
+@{
+    ViewData["Title"] = "PaginaDisciplina";
+}
+
+<h2>@Model.Name</h2>
+
+<h3>Tópicos</h3>
+<p>
+    <a asp-action="CreateTopico">Novo Tópico</a>
+</p>
+
+<div class="container">
+    @foreach (var item in Model.Topicos)
+    {
+        <div class="row">
+            <div class="col">
+                <a href="@item.DisciplinaID/PaginaTopico/@item.ID">@item.Nome</a>
+            </div>
+        </div>
+    }
+</div>
+

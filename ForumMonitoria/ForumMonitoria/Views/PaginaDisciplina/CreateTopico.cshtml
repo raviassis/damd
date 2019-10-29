@@ -1,0 +1,35 @@
+﻿@model  Topico
+@{
+    ViewData["Title"] = "CreateTopico";
+}
+
+<h4>@ViewBag.NomeDisciplina</h4>
+<h2>Novo Tópico</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form asp-action="CreateTopico">
+                <div class="row form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <input type="hidden" name="DisciplinaID" value="@ViewBag.IDDisciplina" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="row form-group">
+                    <label asp-for="Descricao" class="control-label"></label>
+                    <textarea asp-for="Descricao" class="form-control">
+                    </textarea>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Criar" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Voltar</a>
+    </div>
+</div>
+

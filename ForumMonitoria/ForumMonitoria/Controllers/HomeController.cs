@@ -5,14 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ForumMonitoria.Models;
+using ForumMonitoria.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace ForumMonitoria.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Disciplina.ToListAsync());
         }
 
         public IActionResult About()
