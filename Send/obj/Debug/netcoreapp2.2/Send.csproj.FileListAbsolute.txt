@@ -1,0 +1,11 @@
+/home/laercio/Projetos/Send/bin/Debug/netcoreapp2.2/Send.deps.json
+/home/laercio/Projetos/Send/bin/Debug/netcoreapp2.2/Send.runtimeconfig.json
+/home/laercio/Projetos/Send/bin/Debug/netcoreapp2.2/Send.runtimeconfig.dev.json
+/home/laercio/Projetos/Send/bin/Debug/netcoreapp2.2/Send.dll
+/home/laercio/Projetos/Send/bin/Debug/netcoreapp2.2/Send.pdb
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.csprojAssemblyReference.cache
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.csproj.CoreCompileInputs.cache
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.AssemblyInfoInputs.cache
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.AssemblyInfo.cs
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.dll
+/home/laercio/Projetos/Send/obj/Debug/netcoreapp2.2/Send.pdb
