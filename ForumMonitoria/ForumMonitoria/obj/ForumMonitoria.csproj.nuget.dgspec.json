@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\damd\\ForumMonitoria\\ForumMonitoria\\ForumMonitoria.csproj": {}
+    "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/ForumMonitoria.csproj": {}
   },
   "projects": {
-    "C:\\projects\\damd\\ForumMonitoria\\ForumMonitoria\\ForumMonitoria.csproj": {
+    "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/ForumMonitoria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\damd\\ForumMonitoria\\ForumMonitoria\\ForumMonitoria.csproj",
+        "projectUniqueName": "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/ForumMonitoria.csproj",
         "projectName": "ForumMonitoria",
-        "projectPath": "C:\\projects\\damd\\ForumMonitoria\\ForumMonitoria\\ForumMonitoria.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\damd\\ForumMonitoria\\ForumMonitoria\\obj\\",
+        "projectPath": "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/ForumMonitoria.csproj",
+        "packagesPath": "/home/laercio/.nuget/packages/",
+        "outputPath": "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/laercio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

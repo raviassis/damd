@@ -13,12 +13,12 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\_ViewImports.cshtml"
+#line 1 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/_ViewImports.cshtml"
 using ForumMonitoria;
 
 #line default
 #line hidden
-#line 2 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\_ViewImports.cshtml"
+#line 2 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/_ViewImports.cshtml"
 using ForumMonitoria.Models;
 
 #line default

@@ -13,17 +13,17 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\_ViewImports.cshtml"
+#line 1 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/_ViewImports.cshtml"
 using ForumMonitoria;
 
 #line default
 #line hidden
-#line 2 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\_ViewImports.cshtml"
+#line 2 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/_ViewImports.cshtml"
 using ForumMonitoria.Models;
 
 #line default
 #line hidden
-#line 1 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\Shared\_LoginPartial.cshtml"
+#line 1 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/Shared/_LoginPartial.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
@@ -65,13 +65,13 @@ using Microsoft.AspNetCore.Identity;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            BeginContext(38, 2, true);
-            WriteLiteral("\r\n");
+            BeginContext(37, 1, true);
+            WriteLiteral("\n");
             EndContext();
             BeginContext(144, 2, true);
             WriteLiteral("\r\n");
             EndContext();
-#line 6 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\Shared\_LoginPartial.cshtml"
+#line 6 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/Shared/_LoginPartial.cshtml"
  if (SignInManager.IsSignedIn(User))
 {
 
@@ -132,7 +132,7 @@ using Microsoft.AspNetCore.Identity;
                 throw new InvalidOperationException(InvalidTagHelperIndexerAssignment("asp-route-returnUrl", "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper", "RouteValues"));
             }
             BeginWriteTagHelperAttribute();
-#line 8 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\Shared\_LoginPartial.cshtml"
+#line 8 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/Shared/_LoginPartial.cshtml"
                                                                   WriteLiteral(Url.Action("Index", "Home", new { area = "" }));
 
 #line default
@@ -155,7 +155,7 @@ using Microsoft.AspNetCore.Identity;
             BeginContext(749, 2, true);
             WriteLiteral("\r\n");
             EndContext();
-#line 18 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\Shared\_LoginPartial.cshtml"
+#line 18 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/Shared/_LoginPartial.cshtml"
 }
 else
 {
@@ -213,7 +213,7 @@ else
             BeginContext(962, 18, true);
             WriteLiteral("</li>\r\n    </ul>\r\n");
             EndContext();
-#line 25 "C:\projects\damd\ForumMonitoria\ForumMonitoria\Views\Shared\_LoginPartial.cshtml"
+#line 25 "/home/laercio/Projetos/damd/ForumMonitoria/ForumMonitoria/Views/Shared/_LoginPartial.cshtml"
 }
 
 #line default
