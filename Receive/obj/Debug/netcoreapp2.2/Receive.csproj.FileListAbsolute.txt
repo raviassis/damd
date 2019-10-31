@@ -1,0 +1,11 @@
+/home/laercio/Projetos/Receive/bin/Debug/netcoreapp2.2/Receive.deps.json
+/home/laercio/Projetos/Receive/bin/Debug/netcoreapp2.2/Receive.runtimeconfig.json
+/home/laercio/Projetos/Receive/bin/Debug/netcoreapp2.2/Receive.runtimeconfig.dev.json
+/home/laercio/Projetos/Receive/bin/Debug/netcoreapp2.2/Receive.dll
+/home/laercio/Projetos/Receive/bin/Debug/netcoreapp2.2/Receive.pdb
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.csprojAssemblyReference.cache
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.csproj.CoreCompileInputs.cache
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.AssemblyInfoInputs.cache
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.AssemblyInfo.cs
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.dll
+/home/laercio/Projetos/Receive/obj/Debug/netcoreapp2.2/Receive.pdb
