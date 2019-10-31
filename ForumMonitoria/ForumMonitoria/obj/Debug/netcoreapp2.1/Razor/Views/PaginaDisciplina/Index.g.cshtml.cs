@@ -70,7 +70,7 @@ Write(Model.Name);
             WriteLiteral("</h2>\r\n\r\n<h3>Tópicos</h3>\r\n<p>\r\n    ");
             EndContext();
             BeginContext(124, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "475f747d0a8d4ab988eab03f3beb71f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b75d24f07d8d4bcbbac1408ccc011c28", async() => {
                 BeginContext(153, 11, true);
                 WriteLiteral("Novo Tópico");
                 EndContext();

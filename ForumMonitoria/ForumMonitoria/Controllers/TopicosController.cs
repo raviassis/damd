@@ -22,7 +22,7 @@ namespace ForumMonitoria.Controllers
         // GET: Topicos
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Topico.Include(t => t.ApplicationUser).Include(t => t.Disciplina);
+            var applicationDbContext = _context.Topico.Include(t => t.User).Include(t => t.Disciplina);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -35,7 +35,7 @@ namespace ForumMonitoria.Controllers
             }
 
             var topico = await _context.Topico
-                .Include(t => t.ApplicationUser)
+                .Include(t => t.User)
                 .Include(t => t.Disciplina)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (topico == null)
@@ -67,7 +67,7 @@ namespace ForumMonitoria.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.ApplicationUserId);
+            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.User);
             ViewData["DisciplinaID"] = new SelectList(_context.Disciplina, "ID", "ID", topico.DisciplinaID);
             return View(topico);
         }
@@ -85,7 +85,7 @@ namespace ForumMonitoria.Controllers
             {
                 return NotFound();
             }
-            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.ApplicationUserId);
+            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.User);
             ViewData["DisciplinaID"] = new SelectList(_context.Disciplina, "ID", "ID", topico.DisciplinaID);
             return View(topico);
         }
@@ -122,7 +122,7 @@ namespace ForumMonitoria.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.ApplicationUserId);
+            ViewData["ApplicationUserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", topico.User);
             ViewData["DisciplinaID"] = new SelectList(_context.Disciplina, "ID", "ID", topico.DisciplinaID);
             return View(topico);
         }
@@ -136,7 +136,7 @@ namespace ForumMonitoria.Controllers
             }
 
             var topico = await _context.Topico
-                .Include(t => t.ApplicationUser)
+                .Include(t => t.User)
                 .Include(t => t.Disciplina)
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (topico == null)
